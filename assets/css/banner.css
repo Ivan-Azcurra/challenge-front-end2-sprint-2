@@ -1,0 +1,33 @@
+/* Banner */
+.banner{
+    background: url(../img/banner.jpg) center/cover no-repeat;
+    height: auto;
+}
+
+.banner__container{
+    padding: 150px 152px 32px 152px;
+}
+
+.banner__title{
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner__description{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner__button{
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFF;
+    font-weight: 400px;
+    text-transform: capitalize;
+    width: 129px;
+    height: 51px;
+}
