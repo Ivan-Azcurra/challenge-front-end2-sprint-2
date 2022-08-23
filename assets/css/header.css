@@ -56,7 +56,7 @@
   align-items: center;
 }
 
-/* Diseño Responsive Tablet */
+/* Diseño Responsive Tablet  768px */
 
 @media screen and (max-width: 768px) {
   .header {

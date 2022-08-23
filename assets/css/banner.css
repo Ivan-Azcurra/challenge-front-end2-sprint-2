@@ -32,6 +32,8 @@
   height: 51px;
 }
 
+/* Diseño Responsive Tablet  768px */
+
 @media screen and (max-width: 768px) {
   .banner__container {
     padding: 161px 32px 32px 32px;
