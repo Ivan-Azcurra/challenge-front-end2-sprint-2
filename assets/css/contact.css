@@ -70,7 +70,9 @@
   transition: all 0.5s ease;
 }
 
-.form__input--name:focus ~ .form__label, .form__input--name:not(:placeholder-shown).form__input--name:not(:focus) ~ .form__label{
+.form__input--name:focus ~ .form__label,
+.form__input--name:not(:placeholder-shown).form__input--name:not(:focus)
+  ~ .form__label {
   top: 8px;
   font-size: 12px;
 }
@@ -101,8 +103,44 @@
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 8px;
   text-transform: capitalize;
   width: 144px;
   height: 51px;
+}
+
+/* Diseño Responsive Tablet  768px */
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    padding: 32px;
+  }
+
+  .contact__links__logo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact__logo {
+    margin-right: 0;
+  }
+
+  .contact__links--item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .form__container {
+    width: 85%;
+  }
+
+  .form__input--name{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .form__button {
+    font-weight: 600;
+    font-size: 14px;
+    width: 133px;
+    height: 40px;
+  }
 }
