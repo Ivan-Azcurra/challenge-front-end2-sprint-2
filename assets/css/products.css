@@ -102,3 +102,19 @@
     margin-right: 16px;
   }
 }
+
+/* Diseño Responsive mobile  360px */
+
+@media screen and (max-width: 360px) {
+  .products {
+    margin-top: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card__product img {
+    width: 150px;
+    margin-right: 16px;
+  }
+}
+
