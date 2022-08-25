@@ -89,3 +89,24 @@
     height: 40px;
   }
 }
+
+/* Diseño responsive mobile 360px */
+
+@media screen and (max-width: 360px){
+  .header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header__input{
+    display: none;
+  }
+
+  .header__button{
+    width: 133px;
+  }
+  
+  .header__button--search i{
+    display: none;
+  }
+}
