@@ -57,6 +57,10 @@
   align-items: center;
 }
 
+.hidden{
+  display: none;
+}
+
 /* Diseño Responsive Tablet  768px */
 
 @media screen and (max-width: 768px) {
@@ -98,6 +102,10 @@
     padding-right: 1rem;
   }
 
+  .header__logo {
+    margin-right: 0;
+  }
+  
   .header__input{
     display: none;
   }
@@ -108,5 +116,9 @@
   
   .header__button--search i{
     display: none;
+  }
+
+  .hidden{
+    display: block;
   }
 }
