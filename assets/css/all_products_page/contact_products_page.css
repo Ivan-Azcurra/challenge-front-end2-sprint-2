@@ -1,0 +1,165 @@
+.contact {
+  background: #eaf2fd;
+}
+.contact__container {
+  display: flex;
+  padding: 64px 152px;
+}
+
+.contact__links__logo {
+  width: 50%;
+  display: flex;
+}
+
+.contact__logo {
+  margin-right: 112px;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__links--item {
+  color: #464646;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.form__container {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__title {
+  color: #464646;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.input-label {
+  position: relative;
+}
+
+.form__input--name {
+  background: #fff;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  height: 56px;
+  width: 100%;
+}
+
+.form__label {
+  color: #a2a2a2;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 18px;
+  left: 12px;
+  cursor: text;
+  transition: all 0.5s ease;
+}
+
+.form__input--name:focus ~ .form__label,
+.form__input--name:not(:placeholder-shown).form__input--name:not(:focus)
+  ~ .form__label {
+  top: 8px;
+  font-size: 12px;
+}
+
+.form__input--mensaje {
+  background: #fff;
+  display: block;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 82px;
+  width: 100%;
+  font-size: 16px;
+  padding-top: 16px;
+  padding-left: 12px;
+  margin-bottom: 8px;
+}
+
+.form__input--mensaje::placeholder {
+  color: #a2a2a2;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form__button {
+  background: #2a7ae4;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 144px;
+  height: 51px;
+}
+
+/* Diseño Responsive Tablet  768px */
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    padding: 32px;
+  }
+
+  .contact__links__logo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact__logo {
+    margin-right: 0;
+  }
+
+  .contact__links--item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .form__container {
+    width: 85%;
+  }
+
+  .form__input--name{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .form__button {
+    font-weight: 600;
+    font-size: 14px;
+    width: 133px;
+    height: 40px;
+  }
+}
+
+/* Diseño Responsive mobile  360px */
+
+@media  screen and (max-width: 360px) {
+  .contact__container {
+    padding: 16px;
+    flex-direction: column;
+  }
+
+  .contact__links__logo{
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+  }
+
+  .form__container{
+    margin-top: 32px;
+  }
+}

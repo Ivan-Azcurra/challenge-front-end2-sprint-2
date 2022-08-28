@@ -20,13 +20,13 @@
     <!-- STYLES CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- HEADER CSS -->
-    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/all_products_page/header_products_page.css">
     <!-- PRODUCTS CSS -->
-    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/all_products_page/products_products_page.css">
     <!-- CONTACT CSS -->
-    <link rel="stylesheet" href="./assets/css/contact.css">
-     <!-- FOOTER CSS -->
-     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/all_products_page/contact_products_page.css">
+    <!-- FOOTER CSS -->
+    <link rel="stylesheet" href="./assets/css/all_products_page/footer_products_page.css">
     <title>AluraGeeK Productos</title>
 </head>
 
@@ -53,13 +53,15 @@
     <section class="products">
         <!-- Star Wars -->
         <article class="products__container">
+            <!-- Header de los productos -->
             <div class="products__head">
-                <h2 class="products__title">star wars</h2>
+                <h2 class="products__title">todos los productos</h2>
                 <div class="products__ver-todo">
-                    <span class="products__ver-todo--text">ver todo</span>
-                    <span class="products__ver-todo--arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                   
                 </div>
             </div>
+
+
             <div class="cards__container">
                 <div class="card__product">
                     <img src="./assets/img/products/star-wars1.png" alt="Producto Star Wars">
@@ -109,19 +111,6 @@
                         <a href="" class="card__link"><span>ver</span> producto</a>
                     </div>
                 </div>
-            </div>
-        </article>
-
-        <!-- Consolas -->
-        <article class="products__container">
-            <div class="products__head">
-                <h2 class="products__title">Consolas</h2>
-                <div class="products__ver-todo">
-                    <span class="products__ver-todo--text">ver todo</span>
-                    <span class="products__ver-todo--arrow"><i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-            </div>
-            <div class="cards__container">
                 <div class="card__product">
                     <img src="./assets/img/products/consolas/consolas1.png" alt="Producto Consolas">
                     <div class="card__description">
@@ -170,19 +159,7 @@
                         <a href="" class="card__link"><span>ver</span> producto</a>
                     </div>
                 </div>
-            </div>
-        </article>
 
-        <!-- Diversos -->
-        <article class="products__container">
-            <div class="products__head">
-                <h2 class="products__title">Diversos</h2>
-                <div class="products__ver-todo">
-                    <span class="products__ver-todo--text">ver todo</span>
-                    <span class="products__ver-todo--arrow"><i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-            </div>
-            <div class="cards__container">
                 <div class="card__product">
                     <img src="./assets/img/products/diversos/diversos1.png" alt="Producto Diversos">
                     <div class="card__description">
@@ -235,8 +212,8 @@
         </article>
     </section>
 
-     <!-- Section Contacto -->
-     <section class="contact">
+    <!-- Section Contacto -->
+    <section class="contact">
         <div class="contact__container">
             <div class="contact__links__logo">
                 <div class="contact__logo">
@@ -256,8 +233,7 @@
                     <fieldset class="form__group">
                         <legend class="form__title">Hable con nosotros</legend>
                         <div class="input-label">
-                            <input class="form__input--name" type="text" placeholder=" " id="name"
-                            name="name">
+                            <input class="form__input--name" type="text" placeholder=" " id="name" name="name">
                             <label class="form__label" for="name">nombre </label>
                         </div>
                         <textarea class="form__input--mensaje" placeholder="Escribe tu mensaje"></textarea>
@@ -268,8 +244,8 @@
         </div>
     </section>
 
-      <!-- Section Footer -->
-      <footer class="footer">
+    <!-- Section Footer -->
+    <footer class="footer">
         <p class="footer__text">Desarrollado por Ivan Azcurra</p>
         <p class="footer__text">2022</p>
     </footer>
