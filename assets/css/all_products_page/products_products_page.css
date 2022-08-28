@@ -3,7 +3,6 @@
   padding-top: 64px;
   padding-left: 9.5rem;
   padding-right: 9.5rem;
-  padding-bottom: 64px;
 }
 
 .products__head {
@@ -39,6 +38,10 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.card__product{
+  margin-bottom: 64px;
 }
 
 .card__description {
