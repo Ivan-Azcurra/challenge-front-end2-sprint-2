@@ -41,7 +41,23 @@
 }
 
 .card__product{
+  position: relative;
   margin-bottom: 64px;
+}
+
+.card__icons{
+  position: absolute;
+  right: 11px;
+  top: 11px;
+}
+
+.fa-solid {
+  display: inline-block;
+  color: #fff;
+}
+
+.fa-solid.fa-pen{
+  margin-left: 15px;
 }
 
 .card__description {
