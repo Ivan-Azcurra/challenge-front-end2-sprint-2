@@ -135,13 +135,28 @@
 
 @media screen and (max-width: 360px) {
   .products {
-    margin-top: 16px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
+  .products__head{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .products__title{
+    margin-bottom: 16px;
+  }
+
+  .cards__container{
+    padding-right: 0;
+  }
+
+  .card__product{
+    width: 150px;
+  }
+
   .card__product img {
     width: 150px;
-    margin-right: 16px;
   }
 }
