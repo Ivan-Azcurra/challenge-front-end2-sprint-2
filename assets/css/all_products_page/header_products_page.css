@@ -118,7 +118,11 @@
     display: none;
   }
 
-  .hidden{
+  .hidden {
     display: block;
+  }
+
+  a .fa-magnifying-glass{
+    color: #000;
   }
 }
