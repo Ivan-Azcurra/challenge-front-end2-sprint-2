@@ -19,7 +19,11 @@
     <!-- STYLES CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- HEADER CSS -->
-    <link rel="stylesheet" href="./assets/css/all_products_page/header_products_page.css">
+    <link rel="stylesheet" href="./assets/css/login_styles/header_login.css">
+    <!-- CONTACT CSS -->
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <!-- FOOTER CSS -->
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <title>AluraGeek - Login</title>
 </head>
 <body>
@@ -53,7 +57,45 @@
         </form>
     </section>
 
-    
+     <!-- Section Contacto -->
+     <section class="contact">
+        <div class="contact__container">
+            <div class="contact__links__logo">
+                <div class="contact__logo">
+                    <img src="./assets/img/Logo-contact.png" alt="AluraGeek Logo">
+                </div>
+                <div class="contact__links">
+                    <a href="#" class="contact__links--item">Quienes somos</a>
+                    <a href="#" class="contact__links--item">Polotica de privacidad</a>
+                    <a href="#" class="contact__links--item">Programa de fidelidad</a>
+                    <a href="#" class="contact__links--item">Nuestras tiendas</a>
+                    <a href="#" class="contact__links--item">Quiero ser franquiciado</a>
+                    <a href="#" class="contact__links--item">Anuncie aqui</a>
+                </div>
+            </div>
+            <div class="form__container">
+                <form class="form">
+                    <fieldset class="form__group">
+                        <legend class="form__title">Hable con nosotros</legend>
+                        <div class="input-label">
+                            <input class="form__input--name" type="text" placeholder=" " id="name"
+                            name="name">
+                            <label class="form__label" for="name">nombre </label>
+                        </div>
+                        <textarea class="form__input--mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    </fieldset>
+                    <button class="form__button">enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <!-- Section Footer -->
+     <footer class="footer">
+        <p class="footer__text">Desarrollado por Ivan Azcurra</p>
+        <p class="footer__text">2022</p>
+    </footer>
+
     </main>
 </body>
 </html>
