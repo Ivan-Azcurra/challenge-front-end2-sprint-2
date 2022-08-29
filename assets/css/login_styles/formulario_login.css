@@ -63,3 +63,13 @@
     font-size: 14px;
   }
 }
+
+/* Diseño Responsive Tablet  360px */
+
+@media screen and (max-width: 360px) {
+    .form__input--login {
+      padding-bottom: 6px;
+      width: 75vw;
+      height: 41px;
+    }
+}
