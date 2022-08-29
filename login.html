@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- HEADER CSS -->
     <link rel="stylesheet" href="./assets/css/login_styles/header_login.css">
+    <!-- LOG IN CSS -->
+    <link rel="stylesheet" href="./assets/css/login_styles/formulario_login.css">
     <!-- CONTACT CSS -->
     <link rel="stylesheet" href="./assets/css/contact.css">
     <!-- FOOTER CSS -->
@@ -46,14 +48,16 @@
     </header>
 
     <!-- Formulario de Log In -->
-    <section>
-        <form>
-            <fieldset>
-                <legend>iniciar sesión</legend>
-                <input type="email" name="" id="">
-                <input type="password" name="" id="">
-                <button>entar</button>
-            </fieldset>
+    <section class="login">
+        <form class="form__login">
+            <div class="form__container--login">
+                <fieldset class="form__group--login">
+                    <legend class="form__group--title">iniciar sesión</legend>
+                    <input class="form__input--login" type="email" name="" id="" placeholder="Escriba su correo electrónico">
+                    <input class="form__input--login" type="password" name="" id="" placeholder="Escriba su contraseña">
+                    <button class="form__button--login">entrar</button>
+                </fieldset>
+            </div>
         </form>
     </section>
 
