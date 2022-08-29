@@ -32,7 +32,7 @@
   height: 40px;
 }
 
-.header__button--search i {
+.header__button--search {
   position: absolute;
   border: none;
   color: #a2a2a2;
@@ -118,11 +118,7 @@
     display: none;
   }
 
-  .hidden {
+  .hidden{
     display: block;
-  }
-
-  a .fa-magnifying-glass{
-    color: #000;
   }
 }

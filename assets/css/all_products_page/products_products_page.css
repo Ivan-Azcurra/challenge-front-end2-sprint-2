@@ -18,16 +18,19 @@
   text-transform: capitalize;
 }
 
+.products__ver-todo {
+  color: #2a7ae4;
+}
 
-.products__button {
-  background: #2a7ae4;
-  border: none;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 400;
-  width: 163px;
-  height: 51px;
+.products__ver-todo--text {
+  margin-right: 8px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
 
+.products__ver-todo--arrow {
+  width: 16px;
+  height: 16px;
 }
 
 .cards__container {
@@ -37,24 +40,8 @@
   flex-wrap: wrap;
 }
 
-.card__product {
-  position: relative;
+.card__product{
   margin-bottom: 64px;
-}
-
-.card__icons {
-  position: absolute;
-  right: 11px;
-  top: 11px;
-}
-
-.fa-solid {
-  display: inline-block;
-  color: #fff;
-}
-
-.fa-solid.fa-pen {
-  margin-left: 15px;
 }
 
 .card__description {
@@ -95,39 +82,28 @@
 
 @media screen and (max-width: 768px) {
   .products {
-    padding-top: 32px;
+    margin-top: 32px;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-  .products__button {
-    width: 150px;
-    height: 40px;
-    font-weight: 600;
-    font-size: 14px;
+  .products__head{
+      padding-right: 16px;
   }
 
-  .products__head {
-    padding-right: 16px;
+  .products__title{
+      font-size: 22px;
   }
 
-  .products__title {
-    font-size: 22px;
+  .cards__container {
+    margin-bottom: 32px;
+    flex-wrap: nowrap;
+    overflow: hidden;
   }
 
-  .cards__container{
-    padding-bottom: 16px;
-    padding-right: 16px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .card__product {
-    width: 160px;
-    margin-bottom: 16px;
-  }
   .card__product img {
     width: 160px;
+    margin-right: 16px;
   }
 }
 
@@ -135,28 +111,14 @@
 
 @media screen and (max-width: 360px) {
   .products {
+    margin-top: 16px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .products__head{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .products__title{
-    margin-bottom: 16px;
-  }
-
-  .cards__container{
-    padding-right: 0;
-  }
-
-  .card__product{
-    width: 150px;
-  }
-
   .card__product img {
     width: 150px;
+    margin-right: 16px;
   }
 }
+
