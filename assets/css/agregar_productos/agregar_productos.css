@@ -52,6 +52,10 @@
   font-size: 12px;
 }
 
+input[name="descripcion"] {
+  height: 82px;
+}
+
 .add-product__form--button {
   background: #2a7ae4;
   border: none;
@@ -65,16 +69,24 @@
 /* Diseño Responsive Tablet  768px */
 
 @media screen and (max-width: 768px) {
-  .form__input--login {
-    padding-bottom: 6px;
-    width: 40vw;
-    height: 41px;
+  .add-product__form {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
-  .form__button--login {
-    width: 109px;
-    height: 40px;
-    font-size: 14px;
+  .add-product__form--title{
+      font-size: 22px;
+      text-align: left;
+      padding-left: 2rem;
+  }
+
+  .add-product__form--input{
+      margin-bottom: 16px;
+      width: 704px;
+  }
+
+  .add-product__form--button{
+      width: 704px;
   }
 }
 
