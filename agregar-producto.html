@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,81 +29,106 @@
     <link rel="stylesheet" href="./assets/css/login_styles/footer_login.css">
     <title>AluraGeek - Agregar Producto</title>
 </head>
+
 <body>
     <main>
-         <!-- Header Section -->
-    <header class="header">
-        <div class="header__container">
-            <div class="icon-search">
-                <img class="header__logo" src="./assets/img/Logo.jpg" alt="Logo AluraGeek" title="AluraGeeK">
-                <form class="header_form">
-                    <input class="header__input" type="text" name="search" placeholder="¿Qué deseas buscar?">
-                    <a class="header__button--search"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </form>
-            </div>
-            <div class="button-login">
-                <button class="header__button">Menú Administrador</button>
-            </div>
-            <a class="header__search--mobile hidden"><i class="fa-solid fa-magnifying-glass"></i></a>
-        </div>
-    </header>
-
-    <!-- Formulario de Agregar producto -->
-    <section class="add-product">
-        <form class="add-product__form">
-            <div class="add-product__form--container">
-                <fieldset class="add-product__form--group">
-                    <legend class="add-product__form--title">Agregar nuevo producto</legend>
-                    <input class="add-product__form--input" type="email" name="" id="" placeholder="Escriba su correo electrónico">
-                    <input class="add-product__form--input" type="password" name="" id="" placeholder="Escriba su contraseña">
-                    <input type="text" class="add-product__form--input">
-                    <input type="text" class="add-product__form--input">
-                    <input type="text" class="add-product__form--input">
-                    <button class="form__button--login">entrar</button>
-                </fieldset>
-            </div>
-        </form>
-    </section>
-
-     <!-- Section Contacto -->
-     <section class="contact">
-        <div class="contact__container">
-            <div class="contact__links__logo">
-                <div class="contact__logo">
-                    <img src="./assets/img/Logo-contact.png" alt="AluraGeek Logo">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header__container">
+                <div class="icon-search">
+                    <img class="header__logo" src="./assets/img/Logo.jpg" alt="Logo AluraGeek" title="AluraGeeK">
+                    <form class="header_form">
+                        <input class="header__input" type="text" name="search" placeholder="¿Qué deseas buscar?">
+                        <a class="header__button--search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </form>
                 </div>
-                <div class="contact__links">
-                    <a href="#" class="contact__links--item">Quienes somos</a>
-                    <a href="#" class="contact__links--item">Polotica de privacidad</a>
-                    <a href="#" class="contact__links--item">Programa de fidelidad</a>
-                    <a href="#" class="contact__links--item">Nuestras tiendas</a>
-                    <a href="#" class="contact__links--item">Quiero ser franquiciado</a>
-                    <a href="#" class="contact__links--item">Anuncie aqui</a>
+                <div class="button-login">
+                    <button class="header__button">Menú Administrador</button>
                 </div>
+                <a class="header__search--mobile hidden"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
-            <div class="form__container">
-                <form class="form">
-                    <fieldset class="form__group">
-                        <legend class="form__title">Hable con nosotros</legend>
+        </header>
+
+        <!-- Formulario de Agregar producto -->
+        <section class="add-product">
+            <form class="add-product__form">
+                <div class="add-product__form--container">
+                    <fieldset class="add-product__form--group">
+                        <legend class="add-product__form--title">Agregar nuevo producto</legend>
                         <div class="input-label">
-                            <input class="form__input--name" type="text" placeholder=" " id="name"
-                            name="name">
-                            <label class="form__label" for="name">nombre </label>
+                            <input class="add-product__form--input" type="text" name="url" id="url" placeholder=" ">
+                            <label class="add-product__form--label" for="url">URL de imagen</label>
                         </div>
-                        <textarea class="form__input--mensaje" placeholder="Escribe tu mensaje"></textarea>
-                    </fieldset>
-                    <button class="form__button">enviar mensaje</button>
-                </form>
-            </div>
-        </div>
-    </section>
 
-     <!-- Section Footer -->
-     <footer class="footer__login">
-        <p class="footer__text">Desarrollado por Ivan Azcurra</p>
-        <p class="footer__text">2022</p>
-    </footer>
+                        <div class="input-label">
+                            <input class="add-product__form--input" type="text" name="categoria" id="categoria"
+                                placeholder=" ">
+                            <label class="add-product__form--label" for="url">Categoria</label>
+                        </div>
+
+                        <div class="input-label">
+                            <input type="text" name="nombre-producto" id="nombre-producto" placeholder=" "
+                                class="add-product__form--input">
+                            <label class="add-product__form--label" for="url">Nombre del producto</label>
+                        </div>
+
+                        <div class="input-labe">
+                            <input type="text" name="precio-producto" id="precio-producto" placeholder=" "
+                                class="add-product__form--input">
+                            <label class="add-product__form--label" for="url">Precio del producto</label>
+                        </div>
+
+                        <div class="input-labe">
+                            <input type="text" name="descripcion" id="descripcion" placeholder=" "
+                                class="add-product__form--input">
+                            <label class="add-product__form--label" for="url">Descripcion del producto</label>
+                        </div>
+
+                        <button class="add-product__form--button">entrar</button>
+                    </fieldset>
+                </div>
+            </form>
+        </section>
+
+        <!-- Section Contacto -->
+        <section class="contact">
+            <div class="contact__container">
+                <div class="contact__links__logo">
+                    <div class="contact__logo">
+                        <img src="./assets/img/Logo-contact.png" alt="AluraGeek Logo">
+                    </div>
+                    <div class="contact__links">
+                        <a href="#" class="contact__links--item">Quienes somos</a>
+                        <a href="#" class="contact__links--item">Polotica de privacidad</a>
+                        <a href="#" class="contact__links--item">Programa de fidelidad</a>
+                        <a href="#" class="contact__links--item">Nuestras tiendas</a>
+                        <a href="#" class="contact__links--item">Quiero ser franquiciado</a>
+                        <a href="#" class="contact__links--item">Anuncie aqui</a>
+                    </div>
+                </div>
+                <div class="form__container">
+                    <form class="form">
+                        <fieldset class="form__group">
+                            <legend class="form__title">Hable con nosotros</legend>
+                            <div class="input-label">
+                                <input class="form__input--name" type="text" placeholder=" " id="name" name="name">
+                                <label class="form__label" for="name">nombre </label>
+                            </div>
+                            <textarea class="form__input--mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        </fieldset>
+                        <button class="form__button">enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Footer -->
+        <footer class="footer__login">
+            <p class="footer__text">Desarrollado por Ivan Azcurra</p>
+            <p class="footer__text">2022</p>
+        </footer>
 
     </main>
 </body>
+
 </html>
