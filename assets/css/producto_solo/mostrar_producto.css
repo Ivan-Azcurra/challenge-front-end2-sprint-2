@@ -48,3 +48,36 @@
   font-weight: 400;
   font-size: 16px;
 }
+
+/* Diseño Responsive Tablet  768px */
+
+@media screen and (max-width: 768px) {
+  .producto {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .producto__container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .producto__img {
+    max-width: 254px;
+    max-height: 157px;
+  }
+
+  .producto__title {
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .producto__text{
+    font-size: 14px;
+  }
+
+  .cards__container--producto-solo {
+      flex-wrap: nowrap;
+      overflow: hidden;
+  }
+}
