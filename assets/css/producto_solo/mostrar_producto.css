@@ -1,0 +1,132 @@
+.cards__container--producto-solo {
+  margin-top: 16px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Seccion producto solo */
+.producto {
+  background: #f5f5f5;
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
+}
+
+.producto__container {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.producto__container--img {
+  margin-right: 16px;
+}
+
+.producto__container--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.producto__title {
+  color: #464646;
+  font-weight: 500;
+  font-size: 52px;
+  margin-bottom: 8px;
+}
+
+.producto__precio {
+  color: #464646;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.producto__text {
+  color: #464646;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Diseño Responsive Tablet  768px */
+
+@media screen and (max-width: 768px) {
+  .producto {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .producto__container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .producto__img {
+    width: 254px;
+    height: 157px;
+  }
+
+  .producto__title {
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .producto__text {
+    font-size: 14px;
+  }
+
+  .cards__container--producto-solo {
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+}
+
+/* Diseño Responsive Tablet  360px */
+@media screen and (max-width: 360px) {
+  .producto {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .producto__container {
+    flex-direction: column;
+    padding-top: 0;
+    width: 340px;
+  }
+
+  .producto__container--img {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+
+  .producto__img {
+    width: 100%;
+    height: 192px;
+  }
+
+  .producto__title {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .producto__precio {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .producto__text {
+    text-align: justify;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .cards__container--producto-solo {
+    height: 480px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+}

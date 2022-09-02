@@ -30,6 +30,15 @@
 
 }
 
+.products__button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.products__button a:visited{
+  color: #fff;
+}
+
 .cards__container {
   margin-top: 16px;
   display: flex;
