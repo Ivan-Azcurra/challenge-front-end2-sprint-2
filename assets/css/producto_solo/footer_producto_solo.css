@@ -1,0 +1,19 @@
+.footer__login{
+    padding: 32px;
+    text-align: center;
+}
+
+/* Diseño Responsive Tablet  768px */
+
+@media screen and (max-width: 768px) {
+    .footer__login{
+        padding: 32px 32px 32px 32px;
+    }
+}
+
+/* Diseño Responsive Tablet  360px */
+@media screen and (max-width: 360px) {
+    .footer__login{
+        padding: 32px;
+    }
+}

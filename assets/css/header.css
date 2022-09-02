@@ -52,6 +52,15 @@
   height: 51px;
 }
 
+
+.header__button a{
+  text-decoration: none;
+}
+
+.header__button a:visited{
+  color: inherit;
+}
+
 .icon-search {
   display: flex;
   align-items: center;
