@@ -63,8 +63,8 @@
   }
 
   .producto__img {
-    max-width: 254px;
-    max-height: 157px;
+    width: 254px;
+    height: 157px;
   }
 
   .producto__title {
@@ -72,12 +72,61 @@
     font-size: 22px;
   }
 
-  .producto__text{
+  .producto__text {
     font-size: 14px;
   }
 
   .cards__container--producto-solo {
-      flex-wrap: nowrap;
-      overflow: hidden;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+}
+
+/* Diseño Responsive Tablet  360px */
+@media screen and (max-width: 360px) {
+  .producto {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .producto__container {
+    flex-direction: column;
+    padding-top: 0;
+    width: 340px;
+  }
+
+  .producto__container--img {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+
+  .producto__img {
+    width: 100%;
+    height: 192px;
+  }
+
+  .producto__title {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .producto__precio {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .producto__text {
+    text-align: justify;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .cards__container--producto-solo {
+    height: 480px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 16px;
+    padding-left: 16px;
   }
 }
