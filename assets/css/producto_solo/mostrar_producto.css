@@ -1,0 +1,21 @@
+.producto {
+  background: #f5f5f5;
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
+}
+
+.producto__container{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.producto__container--img{
+    margin-right: 16px;
+}
+
+.producto__container--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
